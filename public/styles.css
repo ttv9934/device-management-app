@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+}
+
+#statsChart {
+    max-height: 300px;
+}
+
+.btn-action {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0 15px;
+    }
+    
+    .col-md-3, .col-md-9 {
+        padding: 0;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Pagination styles */
+.page-item.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.page-item.active .page-link {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
